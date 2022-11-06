@@ -41,16 +41,16 @@ if output == computer_choice:
   print("It is a tie!")
 if output == rock:
   if computer_choice == paper:
-    print("Computer Wins!")
+    print("You lose, Computer Wins!")
   elif computer_choice == scissors:
-    print("Human Wins!")
+    print("Congrats, Human Wins!")
 if output == paper:
   if computer_choice == rock:
-    print("Human Wins!")
+    print("CongratsHuman Wins!")
   elif computer_choice == scissors:
-    print("Computer Wins!")
+    print("You lose, Computer Wins!")
 if output == scissors:
   if computer_choice == rock:
-    print("Computer Wins!")
+    print("You lose, Computer Wins!")
   elif computer_choice == paper:
-    print("Human Wins")
+    print("Congrats, Human Wins")
